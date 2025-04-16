@@ -1,0 +1,145 @@
+(footprint "Battery"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Battery Pad")
+	(tags "Battery")
+	(property "Reference" "REF**"
+		(at 0 -2.95 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2db6bdf2-0495-4b9a-b122-d2d323a5e060")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Battery"
+		(at -0.05 2.875 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ebbc0163-af0b-4f76-aed3-6694e4f84c32")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3272990-8d9f-467d-b88a-ea4eaa05ae41")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "88bde158-3d16-4d61-a154-f014c9df726d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4 -0.5)
+		(end -4 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "70a77944-28c5-4391-9823-3865f862bcb2")
+	)
+	(fp_line
+		(start -3.5 0)
+		(end -4.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0e197bee-9fe3-41f0-b1d1-9b82e0f8e0cb")
+	)
+	(fp_line
+		(start 4 0)
+		(end 5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "99c2d4f1-1321-4643-9e26-7077fff35623")
+	)
+	(fp_line
+		(start -5.065 -1.38)
+		(end -5.065 1.62)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "B.CrtYd")
+		(uuid "37975563-c2f6-415f-bd42-f9df80ac20b6")
+	)
+	(fp_line
+		(start 5.335 -1.38)
+		(end -5.065 -1.38)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "B.CrtYd")
+		(uuid "1518ebd3-602a-42c0-be9c-8dc8fe87de95")
+	)
+	(fp_line
+		(start 5.335 -1.38)
+		(end 5.335 1.62)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "B.CrtYd")
+		(uuid "2cf37b43-640b-4bbf-8ce1-d6952129773e")
+	)
+	(fp_line
+		(start 5.335 1.62)
+		(end -5.065 1.62)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "B.CrtYd")
+		(uuid "9972ad12-b90f-4c38-bd00-ddb8c338ae8a")
+	)
+	(pad "1" smd circle
+		(at -1.825 0.075)
+		(size 2 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cbd06ab7-aa7d-4e6a-ace6-02ccd49f9a9e")
+	)
+	(pad "2" smd roundrect
+		(at 2.175 0.075 90)
+		(size 2 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "c08c767a-1cd5-4d8f-ae01-43000c695ac9")
+	)
+	(embedded_fonts no)
+)

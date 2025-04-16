@@ -1,0 +1,26 @@
+Drill report for turfing.kicad_pcb
+Created on 2025-04-16T23:21:03+0300
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'turfing-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.300mm  0.0118"  (41 holes)
+    T2  0.800mm  0.0315"  (58 holes)
+
+    Total plated holes count 99
+
+
+Drill file 'turfing-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  1.900mm  0.0748"  (84 holes)
+    T2  3.000mm  0.1181"  (84 holes)
+    T3  3.400mm  0.1339"  (42 holes)
+
+    Total unplated holes count 210
